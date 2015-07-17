@@ -31,7 +31,7 @@ module.exports = function(grunt) {
       	uglify: {
       		my_target: {
       		    files: {
-      		    	'build/js/vendor.min.js': ['lib/vendor/jquery.js','lib/vendor/lightbox.js','lib/vendor/slides.js'],
+      		    	'build/js/vendor.min.js': ['lib/vendor/jquery.js','lib/vendor/lightbox.js','lib/vendor/slides.js','lib/vendor/instafeed.js'],
       		    	'build/js/script.min.js': 'lib/script.js'
       		    }
       		}
