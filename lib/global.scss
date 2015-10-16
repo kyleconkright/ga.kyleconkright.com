@@ -11,7 +11,8 @@ $gradient: linear-gradient(to right, $white 0%, white 50%, $white 100%);
 	font-size: 101%;
 	color: inherit;
 	font-weight: 300;
-	font-family: Lato, helvetica neue, sans-serif;
+	letter-spacing: 1px;
+	font-family: Roboto, helvetica neue, sans-serif;
 	line-height: 1.5em;
 	padding: 0;
 	margin: 0;
@@ -74,7 +75,7 @@ body {
 			h2 {
 				font-size: 1.35em;
 				text-transform: uppercase;
-				
+				margin: 0 0 $margin/2;
 				i {
 					margin: 0 $margin;
 					color: #ddd;
@@ -91,6 +92,7 @@ body {
 				}
 				input, button {
 					border: none;
+					letter-spacing: 0;
 					padding: $margin/2 $margin;
 					margin: 0;
 					background: #eee;
